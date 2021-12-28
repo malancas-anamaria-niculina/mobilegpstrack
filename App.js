@@ -2,8 +2,8 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import Location from './android/screens/Location'
-import HomeScreen from './android/screens/HomeScreen'
+import Location from './screens/Location'
+import HomeScreen from './screens/HomeScreen'
 
 const Stack = createNativeStackNavigator();
 
